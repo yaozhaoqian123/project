@@ -1,12 +1,9 @@
 # SimpleGit
 Build your own Git with Java
 
-SimpleGit是基于我们组去年开发的项目为模板的项目框架。
+SimpleGit是基于Java语言开发一个简易版本的Git
 
-需要大家完成的部分主要集中于gitobject与repository文件夹中。
-
-##项目要求至少实现以下方法
-###gitobject/GitObject
+gitobject/GitObject
 这是一个key-value类的父类，其中包含了tree，blob和commit共有的一些方法。
 
 另外需要注意的是，writeObject和compressWrite两个方法都是序列化方法，尽管都要求实现，但是最后使用的时候只需选择其中一个使用即可
